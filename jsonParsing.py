@@ -29,4 +29,5 @@ with open("C:\\Users\\Admin\\Downloads\\complex_sample.json") as f:
 with open("C:\\Users\\Admin\\Downloads\\complex_sample1.json") as f2:      #f2 is object
     jsondata1 = json.load(f2)
     assert jsondata == jsondata1 #it will give assertion error
-    #print(jsondata == jsondata1) -------- will print either true or false in output
+    print(jsondata == jsondata1)        # will print either true or false in output
+    print("test is successful")
