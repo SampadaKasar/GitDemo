@@ -11,3 +11,5 @@ response = requests.post(url , files=files)
 print(os.path.exists("F:\\pics\\images.jfif"))
 print(response.text)
 print(response.status_code)
+
+#need to revise this section
